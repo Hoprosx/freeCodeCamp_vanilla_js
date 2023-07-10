@@ -11,7 +11,6 @@ btn.addEventListener('click', function(){
     color.textContent = colors[randomNumber];
 })
 
-
 function getRundomArrIndex(arr){
     return Math.floor(Math.random() * arr.length);
 }
